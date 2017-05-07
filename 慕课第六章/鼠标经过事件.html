@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鼠标滑过</title>
+	<script>
+	function message(){
+		confirm("请输入密码后，再单击确定");
+	}
+	</script>
+</head>
+<body>
+	<form>
+	密码：<input name="password" type="password" id="password">
+	<input type="button" name="确定" value="确定" onmouseover="message();" >
+	</form>
+</body>
+</html>
